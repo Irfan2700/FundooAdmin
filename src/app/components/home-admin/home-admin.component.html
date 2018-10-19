@@ -1,0 +1,94 @@
+<div class="container-fluid">
+  <div class="card-body toolbarCard">
+    <div row>
+      <div col-sm>
+        <h2 class="card-title fundoo">FundooApp Admin</h2>
+      </div>
+      <div col-sm></div>
+      <div col-sm>
+        <button class="btn btn-dark logoutBut" id="logout">Logout</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-3">
+      <div class="column">
+        <div class="row align-self-start rowHeight"></div>
+        <div class="row align-self-center rowHeight">
+          <div class="card-body serviceCardBasic">
+            <h4 class="card-title">Basic</h4>
+            <hr>
+            <!-- <h5 class="card-text" id="basic">Total member:</h5> -->
+            <div id="basic"></div>
+
+          </div>
+        </div>
+        <div class="row align-self-end rowHeight"></div>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-3">
+      <div class="column">
+        <div class="row align-self-start rowHeight"></div>
+        <div class="row align-self-center rowHeight">
+          <div class="card-body serviceCardAdvance">
+            <h4 class="card-title align-self-cemter">Advance</h4>
+            <hr>
+            <div id="advance"></div>
+            <!-- <h5 class="card-text" id="advance">Total member:</h5> -->
+
+
+          </div>
+        </div>
+        <!-- <div class="row align-self-end rowHeight"></div> -->
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div class="card-body tableCard">
+  <div class="container-fluid" style="overflow-x:auto;">
+
+    <table id="dataTable" class="display nowrap" style="width: 100%">
+      <thead>
+        <tr>
+          <th scope="col-sm">ID</th>
+          <th scope="col-sm">firstName</th>
+          <th scope="col-sm">lastName</th>
+          <th scope="col-sm">email</th>
+          <th scope="col-sm">service</th>
+          <th scope="col-sm"></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Member Information</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div id="content1"></div>
+          <div id="content2"></div>
+          <div id="content3"></div>
+          <div id="content4"></div>
+          <div id="content5"></div>
+          <div id="content6"></div>
+          <div id="content7"></div>
+          <div id="content8"></div>
+          <div id="content9"></div>
+          <div id="content10"></div>
+          <div id="content11"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
