@@ -102,6 +102,8 @@ array = [];
 
       })
 
+      $('[data-toggle="tooltip"]').tooltip();
+
       $('#logout').click(function(){
 
         // localStorage.removeItem('adminToken');
@@ -132,14 +134,4 @@ array = [];
 
 }
 
-// firstName": "Irfan",
-//   "lastName": "Rizvi",
-//   "phoneNumber": "1234567890",
-//   "role": "user",
-//   "service": "Basic",
-//   "createdDate": "2018-10-09T07:48:58.471Z",
-//   "modifiedDate": "2018-10-09T07:48:58.471Z",
-//   "username": "sirizvi2700@gmail.com",
-//   "email": "sirizvi2700@gmail.com",
-//   "emailVerified": true,
-//   "id": "5bbc5d6adca3280040d5ea7c"
+
